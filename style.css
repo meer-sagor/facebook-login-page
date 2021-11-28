@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  background: rgb(240, 242, 245);
+}
+
+.facebook-container {
+  width: 980px;
+  padding: 2rem 0;
+  margin: 0 auto;
+  margin-top: 9rem;
+  display: flex;
+}
+.facebook-icon__content {
+  margin-top: 7rem;
+}
+.facebook-icon__content img {
+  height: 106px;
+  margin: -28px;
+}
+.facebook-icon__content h1 {
+  font-size: 2.8rem;
+  width: 90%;
+  font-weight: normal;
+  margin-top: 1.5rem;
+}
+
+.facebook-login__info {
+  width: 400px;
+  text-align: center;
+  background: white;
+  border-radius: 0.4em;
+  padding: 1.5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+.facebook-login__info input {
+  font-size: 1.6rem;
+  padding: 1.5rem;
+  display: block;
+  margin-bottom: 1rem;
+  border-radius: 0.3em;
+  border: 1px solid lightgray;
+  width: 100%;
+  min-width: 30rem;
+}
+.facebook-login__info input::placeholder {
+  color: #777;
+}
+
+.facebook-login__info input:focus {
+  outline: none;
+}
+.facebook-login__info a {
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+  margin-top: 0.8rem;
+}
+.facebook-login__info a:hover {
+  text-decoration: underline;
+}
+.border {
+  width: 100%;
+  border: 1px solid #dadde1;
+  margin-top: 2.5rem;
+}
+.button,
+.button:active {
+  width: 100%;
+  background: rgb(22, 111, 229);
+  padding: 1rem;
+  border-radius: 0.3em;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  border: none;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+.button:hover {
+  background-color: #3686f0;
+}
+.button--alt {
+  padding: 1.5rem 1rem;
+  font-size: 1.6rem;
+  width: 60%;
+  margin-top: 2.5rem;
+  background: rgb(62, 176, 38)
+}
+.button--alt:hover {
+  background-color: #3d9e2a;
+  border-color: #36a420;
+}
+.center {
+  font-size: 1.8rem;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+.create-page {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: white;
+  width: 100%;
+}
+.footer-bottom {
+  width: 980px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.footer-bottom p,
+.footer-bottom a {
+  color: #8a8d91;
+  margin-right: 0.8rem;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+.footer-bottom__border {
+  border-bottom: 1px solid #8a8d91;
+  margin: 0.8rem 0;
+}
+.footer-bottom p a:hover {
+  text-decoration: underline;
+}
+.create-page:hover {
+  text-decoration: underline;
+}
+.company-copyright {
+  font-size: 1.3rem;
+  margin-top: 2.5rem;
+}
